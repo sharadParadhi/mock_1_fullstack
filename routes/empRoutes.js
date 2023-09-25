@@ -56,7 +56,7 @@ empRoutes.delete("/delete/:postID",async(req,res)=>{
 
 empRoutes.get("/",async(req,res)=>{
     const {page}=req.query;
-    const limit=2
+    const limit=5
     console.log(page)
     
     console.log(page,limit)
